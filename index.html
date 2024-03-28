@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forn detail</title>
+</head>
+<body>
+    <!--Personal Information Start-->
+    <h1>Personal Information</h1>
+    <form action="get">
+    <label for="Father's Name">Father's Name:-</label>
+<input type="text" placeholder="Enter Your Father's Name" id="Father's Name:-" required>
+<br>
+<br>
+<label for="Full Name">Full Name:-</label>
+<input type="text" placeholder="Enter Your Name" id="Full Name:-" required>
+<br>
+<br>
+<label for="Gender">Gender</label>
+<input type="radio" name="Gender" id="Male" required>
+<label for="Male">Male</label>
+<input type="radio" name="Gender" id="Female" required>
+<label for="Female">Female</label>
+<br>
+<br>
+<label for="address">Address:- </label>
+<textarea name="Address" id="Address" cols="50" rows="6"></textarea>
+<br>
+<br>
+<label for="Email Id">Email Id:-</label>
+<input type="email" name="email" id="Email Id" required>
+<br> 
+<br>
+<label for="Pincode">Pincode:-</label>
+<input type="number" name="Pincode" id="Pincode" required>
+<!--Personal Information End-->
+<br>
+<br>
+<!--Payment Information Start-->
+<h2>Payment Information</h2>
+<br>
+<br>
+<label for="Card Type">Card Type</label>
+<select name="card type" id="card type" required>
+    <option value="">---Select and type </option>
+    <option value="Visa">Visa</option>
+    <option value="Rupay">Rupay</option>
+    <option value="Master Card">Master Card</option>
+</select>
+<br>
+<br>
+<label for="Card Number">Card Number:-</label>
+<input type="number" name="card number" id="Card Number" required>
+<br>
+<br>
+<label for="Expiration Date">Expiration Date</label>
+<input type="date" name="date" id="Expiration Date" required>
+<br>
+<br>
+<label for="CVV Number">CVV Number:-</label>
+<input type="password" name="CVV Number" id="CVV Number" required>
+<br>
+<br>
+<button type="submit" style="background-color: blue; color: aliceblue;">Pay Now</button>
+<button type="reset" style="background-color: blue; color: aliceblue;">Reset</button>
+<!--Payment Information Start-->
+</form>
+</body>
+</html>
